@@ -1,5 +1,8 @@
 body{
     background: #F7F7F7;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .img_top{
@@ -9,6 +12,17 @@ body{
 
 #titulo, .subtitulo, .post_titulo{
     color: blue;
+}
+
+#titulo{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050
+
 }
 
 
@@ -31,12 +45,24 @@ body{
 .post_conteudo{
     margin: 0;
     margin-bottom: 15px;
-    
+    text-transform: capitalize;
+    text-align: right;
 }
 
 .post_imagem{
     margin: 0;
     margin-bottom: 15px;
     border-radius: 10px;
+    width: 100%;
+
 }
 
+.contato_lista{
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+.contato_lista li a {
+    text-decoration: none;
+    color: blue;
+}
